@@ -33,7 +33,7 @@ namespace TestProject1
         public void ManageBooks_EditBook_UpdatesBookTitle()
         {
             // Arrange
-            Program.books.Add(new Book { Id = 101, Title = "Old Title", Author = "Author", ISBN = "999" });
+            Program.books.Add(new Book { Id = 1, Title = "Old Title", Author = "Author", ISBN = "999" });
 
             string input = "2\n101\nNew Title\nNew Author\n1234567890\n5\n";
             Console.SetIn(new StringReader(input));
